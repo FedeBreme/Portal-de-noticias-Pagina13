@@ -19,21 +19,4 @@ La idea es servir como proyecto de práctica para comprender la **estructura y n
 
 ---
 
-## 📁 Estructura de carpetas
 
-Portal-de-noticias-Pagina13/
-├─ CSS/ ← Estilos del sitio
-├─ Imagenes/ ← Imágenes usadas en las páginas
-├─ JS/ ← Scripts de interacción (si los hay)
-├─ index.html ← Página principal
-├─ Boxeo.html ← Sección deportes de boxeo
-├─ Economia.html ← Sección economía
-├─ Espectaculos.html ← Sección espectáculos
-├─ Futbol.html ← Sección fútbol
-├─ Politica.html ← Sección política
-├─ Mundo.html ← Sección mundo
-├─ Login.html ← Página de inicio de sesión
-├─ Registrarse.html ← Página de registro
-├─ Rugby.html ← Sección rugby
-├─ Tenis.html ← Sección tenis
-└─ README.md ← Documentación del proyecto
