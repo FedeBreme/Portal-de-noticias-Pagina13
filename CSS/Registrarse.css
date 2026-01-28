@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+    font-family: Merriweather;
+    background-image: url('https://escoladainteligencia.com.br/wp-content/uploads/2019/05/Puerto-Madero.jpg');
+    background-repeat: no-repeat;
+    background-position: contain;
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: transparent;
+    place-items: center;
+    height: 400px;
+    width: 570px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 250px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 55px black;
+    border-radius: 15px;
+}
+
+.flex-items:nth-child(1) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    color: white;
+    margin: 20px;
+}
+  
+.flex-items:nth-child(2) {
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    color: white;
+    margin: 20px;
+}
+
+button{
+    background-color: #481DCB;
+    width: 177px;
+    height: 25px;
+}
+
+button:hover {
+    background-color: #381896;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

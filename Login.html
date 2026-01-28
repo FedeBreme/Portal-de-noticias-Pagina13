@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="icon" type="image/png" href="./Imagenes/72ced6669e524870b41cf351da53c35e.png">
+    <link rel="stylesheet" href="./CSS/Login.css">
+</head>
+<body>
+    <article>
+        <div class="flex-container">
+            <div class="flex-items">
+                <div class="login">
+                    <div class="login-triangle"></div>
+                    <h2 class="login-header">INICIAR SESION</h2>
+                    <form class="login-container" onsubmit="login(event)">
+                      <p><input type="text" id="username" placeholder="Usuario" required></p>
+                      <p><input type="password" id="password" placeholder="Contraseña" required></p>
+                      <p><input class="boton" type="submit" value="Iniciar sesión"></p>
+                    </form>
+                    <p id="error-message"></p>
+                    <br>
+                    <h4>¿No tenes una cuenta?</h4>
+                    <a href="./Registrarse.html">Registrarse</a>
+                </div>
+            </div>
+         </div>
+    </article>
+    <script src="./JS/index.js"></script>
+</body>
+</html>

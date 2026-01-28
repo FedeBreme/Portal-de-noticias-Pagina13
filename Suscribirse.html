@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suscripcion</title>
+    <link rel="icon" type="image/png" href="./Imagenes/72ced6669e524870b41cf351da53c35e.png">
+    <link rel="stylesheet" href="./CSS/Suscribirse.css">
+</head>
+<body>
+    <header>
+        <div class="flex-container">
+            <div class="flex-items">
+                <h1>Pagina 13</h1>
+            </div>
+            <div class="flex-items">
+                <h2>¿Ya estas Suscripto? <a href="./Login.html">INICIAR SESION</a></h2>
+            </div>
+         </div>
+    </header>
+    <br>
+    <article>
+        <h3>En una época de cambios, mantenete informado. Con tu suscripción podés acceder al análisis de los especialistas más prestigiosos para entender el país que viene.</h3>
+    </article>
+    <br>
+    <article class="cuerpo">
+        <div class="pricing-card">
+            <h2>Estandar</h2>
+            <span class="price">$1500</span>
+            <h4>1 mes</h4>
+            <h3>Beneficios:</h3>
+            <br>
+            <ul>
+                <li>1 mes de noticias</li>
+                <li>1 usuario premium</li>
+                <li>1 mes de beneficios</li>
+                <li>1 targeta Plus 13</li>
+            </ul>
+            <br>
+            <button class="btn-primary"><a>Subscribe</a></button>
+        </div>
+        <div class="pricing-card">
+            <span class="label-best">Best Deal</span>
+            <h2>Basico</h2>
+            <span class="price">$1000</span>
+            <h4>1 mes</h4>
+            <h3>Beneficios:</h3>
+            <br>
+            <ul>
+                <li>1 mes de noticias</li>
+                <li>1 usuario premium</li>
+            </ul>
+            <br>
+            <br>
+            <br>
+            <button class="btn-primary"><a>Subscribe</a></button>
+        </div>
+        <div class="pricing-card">
+            <h2>Familiar</h2>
+            <span class="price">$800</span>
+            <h4>1 mes</h4>
+            <h3>Beneficios:</h3>
+            <br>
+            <p>
+                El plan Familiar permite que 1 o mas miembros de tu familia tengan su 
+                <b>su propia cuenta de Pagina 13</b> contando con los beneficios del <b>Plan Basico</b>
+            </p>
+            <button class="btn-primary"><a>Subscribe</a></button>
+        </div>
+    </article>
+    <article class="centrar">
+        <br>
+        <p>
+            <b>Cancelá cuando quieras. No hay compromisos ni cargos por cancelación.</b>
+        </p>
+        <br>
+        <p>
+            También podés suscribirte por WhatsApp al <b>+54 9 11 2762 3628</b> o llamarnos al <b>011 5199 4706</b>
+        </p>
+        <br>
+        <p>Atención al cliente: desde la Argentina: <b>011 5199 4787</b> o contactanos al suscripciones@pagina13.com.ar</p>
+        <br>
+    </article>
+    <br>
+    <hr>
+    <br>
+    <article>
+        <h2 class="centrar">PREGUNTAS FRECUENTES</h2>
+        <br>
+        <button class="accordion">¿Qué es el Acceso Digital?</button>
+        <div class="panel">
+            <br>
+            <p>
+                Es la opción para navegar sin límites en PAGINA 13 desde el sitio web o con la app, acceder a la edición impresa del diario y las revistas 
+                (OHLALÁ!, Lugares, Living, ¡HOLA!, y Jardín), participar de eventos donde podrás interactuar con diferentes invitados y suscribirte a 
+                los newsletters exclusivos que te permitirán recibir anticipos y contenidos diferenciales. Dependiendo del plan que elijas, podés acceder 
+                a todos los beneficios de PAGINA PLUS.
+            </p>
+        </div>
+        <br>
+        <button class="accordion">¿Si no me suscribo, puedo seguir leyendo LA NACION?</button>
+        <div class="panel">
+            <br>
+            <p>
+                Sí. Sin suscripción podés seguir accediendo a la página principal de PAGINA 13 pero podrás leer solo una cantidad limitada de notas en un rango de 30 días.
+            </p>
+        </div>
+        <br>
+        <button class="accordion">¿Cuáles son los medios de pago?</button>
+        <div class="panel">
+            <br>
+            <p>
+                Podés pagar con tarjeta de crédito a través del débito automático.
+            </p>
+        </div>
+        <br>
+        <!--SCRIPT-->
+        <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+                } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+                });
+            }
+        </script>
+<!--SCRIPT-->
+    </article>
+</body>
+</html>
